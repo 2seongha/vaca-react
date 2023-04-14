@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root:not(:empty) ~ #loading {
+  display: none !important;
+}
+
+#Loading{
+  width: 100vw;
+  height: 100vh;
+}
